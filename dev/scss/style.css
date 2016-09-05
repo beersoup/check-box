@@ -1,0 +1,137 @@
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%; }
+
+  .col-2 {
+    width: 16.66%; }
+
+  .col-3 {
+    width: 25%; }
+
+  .col-4 {
+    width: 33.33%; }
+
+  .col-5 {
+    width: 41.66%; }
+
+  .col-6 {
+    width: 50%; }
+
+  .col-7 {
+    width: 58.33%; }
+
+  .col-8 {
+    width: 66.66%; }
+
+  .col-9 {
+    width: 75%; }
+
+  .col-10 {
+    width: 83.33%; }
+
+  .col-11 {
+    width: 91.66%; }
+
+  .col-12 {
+    width: 100%; } }
+/* Preferences page */
+body {
+  margin: 0; }
+
+.preferences-head {
+  background: #eee; }
+
+.list-preferences {
+  padding: 40px 0 0 0;
+  margin: 0 auto; }
+
+.list-preferences li {
+  display: inline-block;
+  margin-right: 160px;
+  font-size: 1.6em; }
+
+.list-preferences li:hover {
+  border-bottom: 3px solid #323284; }
+
+.list-preferences li a {
+  color: #a0a0a0;
+  text-decoration: none;
+  cursor: pointer; }
+
+.list-preferences li a:hover {
+  color: #323284; }
+
+.preferences-form-control {
+  margin: 0 auto; }
+
+/*.preferences-form label {
+	font-size: 0.9em;
+}
+#advanced {
+	margin-right: 20px;
+}
+.preferences-form input[type="checkbox"] {
+	display: none;
+	color: red;
+	background: black;
+	padding: 2em;
+}
+.preferences-form label:before {
+	content : "f";
+} */
+.checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-top: 4px;
+  margin-left: -20px; }
+
+.checkbox-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-size: 0.9em;
+  font-weight: bold;
+  vertical-align: middle;
+  cursor: pointer; }
+
+.col-right {
+  width: 60%; }
+
+.col-right .skill {
+  width: 30%; }
+
+.diets-content .checkbox-inline {
+  width: 30%; }
+
+.col-right .diets {
+  width: 43%;
+  padding-bottom: 15px; }
+
+.form-row {
+  height: 100px; }
+
+.cooking-skill-content {
+  padding-top: 40px; }
+
+.preferences-form span {
+  font-size: 0.9em;
+  font-weight: bold;
+  width: 40%;
+  float: left; }
+
+.preferences-form .col-right {
+  float: left; }
+
+.horizontal-line {
+  padding: 0;
+  /*margin: 10px 0 0 0;*/
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/ }
+
+.horizontal-line-padding {
+  margin-bottom: 25px; }
+
+/*# sourceMappingURL=style.css.map */

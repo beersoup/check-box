@@ -1,6 +1,7 @@
 {
   "name": "react-redux",
   "version": "1.0.0",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "dev": "webpack",
@@ -19,9 +20,10 @@
     "expect": "^1.20.1",
     "node-libs-browser": "^1.0.0",
     "node-sass": "^3.8.0",
-    "react": "^15.1.0",
+    "react": "^0.14.5",
     "react-addons-test-utils": "^15.1.0",
     "react-dom": "^15.1.0",
+    "react-hamburger-menu": "0.0.4",
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
     "redux-logger": "^2.6.1",
